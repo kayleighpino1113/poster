@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: url(../../../Downloads/photo-1500964757637-c85e8a162699.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.poster{
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+.typing-text::after{
+    content: "-you are capable of more";
+    animation: typing 4s infinite;
+    color: black;
+    font: 15px;
+}
+@keyframes typing{
+    50%{content: "-you are capable of more";}
+}
